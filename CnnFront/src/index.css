@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-cream: #FFFBF0;
+  --color-brand-burgundy: #560B18;
+  --color-brand-coffee: #34120F;
+
+  --font-ovo: "Ovo", serif;
+  --font-etna: "Etna", sans-serif;
+}
+
+html, body {
+  background-color: var(--color-brand-cream);
+  color: var(--color-brand-burgundy);
+  font-family: var(--font-ovo);
+  -webkit-font-smoothing: antialiased;
+}
