@@ -378,6 +378,9 @@ async function bootstrap() {
 
     const app = express();
 
+    const cors = require("cors");
+    app.use(cors());
+
     app.post("/infer", upload.single("image"), async (req, res) => {
         if (!req.file) {
             return res.status(400).json({
