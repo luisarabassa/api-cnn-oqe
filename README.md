@@ -33,8 +33,6 @@ O modelo classifica imagens nas seguintes categorias:
 npm install
 ```
 
-> O Vite já é instalado como dependência do projeto — não é necessário instalar globalmente.
-
 ---
 
 ### 2. Ambiente Python
@@ -62,18 +60,6 @@ Com o ambiente virtual ativado:
 ```bash
 pip install -r requirements.txt
 ```
-
----
-
-### 4. Modelo treinado
-
-Copie o arquivo `.pth` gerado no treinamento para a pasta `models_saved/` e renomeie para `model.pth`:
-
-```
-models_saved/model.pth
-```
-
-> A API não inicia se esse arquivo não existir.
 
 ---
 
