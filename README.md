@@ -1,4 +1,4 @@
-# Classificador de Roupas com CNN
+# Classificador de Roupas OQE
 
 Aplicação web para classificação de imagens de roupas usando uma CNN treinada com PyTorch. O front-end foi construído com React + Vite e se comunica com uma API Node.js que executa a inferência via Python.
 
