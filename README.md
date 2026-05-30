@@ -8,12 +8,12 @@ Aplicação web para classificação de imagens de roupas usando uma CNN treinad
 
 O modelo classifica imagens nas seguintes categorias:
 
-- Camiseta
-- Vestido
 - Bolsa
+- Calça
+- Camiseta
 - Casaco
 - Tênis
-- Sandália
+- Vestido
 
 ---
 
@@ -21,11 +21,12 @@ O modelo classifica imagens nas seguintes categorias:
 
 - Node.js instalado
 - Python instalado
-- Modelo treinado no formato `.pth`
 
 ---
 
 ## Instalação
+
+Em um terminal dentro da pasta **api**, execute:
 
 ### 1. Dependências do Node.js
 
@@ -86,7 +87,11 @@ Endpoint de inferência: POST http://localhost:3000/infer
 
 ### Front-end
 
-Em outro terminal:
+Em outro terminal, dentro da pasta **front**:
+
+```bash
+npm install
+```
 
 ```bash
 npm run dev
