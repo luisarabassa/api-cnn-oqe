@@ -118,13 +118,13 @@ Recebe uma imagem via `multipart/form-data` no campo `image`.
 
 ```bash
 curl -X POST http://localhost:3000/infer \
-  -F "image=@./teste.jpg"
+  -F "image=@./imagem-teste.jpg"
 ```
 
 **Windows PowerShell:**
 
 ```powershell
-curl.exe -X POST http://localhost:3000/infer -F "image=@./teste.jpg"
+curl.exe -X POST http://localhost:3000/infer -F "image=@./imagem-teste.jpg"
 ```
 
 **Resposta:**
